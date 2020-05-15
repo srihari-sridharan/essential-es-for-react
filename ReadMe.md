@@ -407,7 +407,7 @@ console.log(result); // The sum of 10 and 20 is 30.
 - If no arguments are provided to function when it is called these default parameters values will be used
 
 ```JavaScript
-// ES5
+// ES6
 function sayHello(name = 'World') {
     return `Hello ${name}!`;
 }
@@ -415,7 +415,7 @@ function sayHello(name = 'World') {
 console.log(sayHello()); // Hello World!
 console.log(sayHello('Srihari')); // Hello Srihari!
 
-// ES6
+// ES5
 // To achieve this in ES5
 function sayHello(name) {
     var name = name || 'World';
@@ -745,7 +745,7 @@ console.log(gen.next().value); // 2
   - `rejected`: meaning that the operation failed.
 - Promises can be chained
 
-![image](proxy.png)
+![image](promises.png)
 
 ### General Pattern
 
