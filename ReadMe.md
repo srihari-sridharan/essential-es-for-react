@@ -138,6 +138,8 @@ myCat.get_name = function ( ) {
 - **Hoisting in JavaScript** – Both variables and functions get hoisted.
 - **However, JavaScript only hoists declarations, not initializations.**
 
+**NOTE**: Run this code in Browser Console and [es6console.com](https://esconsole.com).
+
 ```JavaScript
 // Function Hoisting
 // Calling function before declaration
