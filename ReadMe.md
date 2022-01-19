@@ -565,7 +565,7 @@ class Patient extends Person {
 
 > **NOTE:** Unlike function declarations, **class declarations are not hoisted**. Class declarations reside in the **temporal dead zone (TDZ)** until the execution reaches the point of class declaration, similar to `let` and `const` declarations. Therefore, you need to declare your class before accessing it, otherwise a `ReferenceError` will occur.
 
-The equivalent ES5 code is below:
+The equivalent ES5 code is below: (Transformation available [@ es6console.com](https://es6console.com/kylkolbg/)
 ```JavaScript
 'use strict';
 
