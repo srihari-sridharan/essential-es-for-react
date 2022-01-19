@@ -83,6 +83,7 @@ var person = {
 - Callbacks
 - Module
 - Cascading – method chaining!
+- [IIFE - Immediatey Invoked Function Expressions](https://es6console.com/kylkqsj3/)
 
 ```JavaScript
 // => function object
