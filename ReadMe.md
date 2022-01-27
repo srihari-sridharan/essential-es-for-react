@@ -46,7 +46,7 @@ var person = {
         numberOfDogs: 2,
         numberOfCats: 1
     },
-    sayHello: function(){ console.log('Hello’); }
+    sayHello: function(){ console.log('Hello'); }
 };
 ```
 
